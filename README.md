@@ -4,12 +4,12 @@ This is more of an application than a widget but here is the official Russound w
 # Channels
 This widget deals with too many channels to individually setup each one of them in the settings. Instead, you will specify the zone name channel and the other channels are inferred from that channel. Specifically, the channels names must use the following formats:
 
-* System Channels: russound_rio_(sysId)_(name)
-* Source Channels: russound_source_(sysId)_(sourceId)_(name)
-* Controller Channels: russound_controller_(sysId)_(controllerId)_(name)
-* Zone Channels: russound_zone_(sysId)_(controllerId)_(zoneId)_(name)
+* System Channels: russound\_rio\_(sysId)\_(name)
+* Source Channels: russound\_source\_(sysId)\_(sourceId)\_(name)
+* Controller Channels: russound\_controller\_(sysId)\_(controllerId)\_(name)
+* Zone Channels: russound\_zone\_(sysId)\_(controllerId)\_(zoneId)\_(name)
 
-Example: the 'bass' channel on zone 6, controller 2, system id 192168124 would be: russound_zone_192168124_2_6_bass
+Example: the 'bass' channel on zone 6, controller 2, system id 192168124 would be: russound\_zone\_192168124\_2\_6\_bass
 
 If you autodiscovered the device and have 'Simple Mode' linking set to on - the channels will be named properly to begin with
 
